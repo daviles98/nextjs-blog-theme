@@ -14,7 +14,14 @@ export default function Index({ posts, globalData }) {
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
       <main className="w-full">
-        <h1>Cool stuff to come soon...</h1>
+        <ul className='space-y-6'>
+          <li>QA Engineer</li>
+          <li>On the side, learning full stack web development in Next.js</li>
+          <li>
+            To learn more about my professional experience visit my 
+            <a className='text-teal-300' rel='noreferrer' target='_blank' href='https://www.linkedin.com/in/diego-aviles-84650a150'> LinkedIn</a>
+          </li>
+        </ul>
       </main>
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground
